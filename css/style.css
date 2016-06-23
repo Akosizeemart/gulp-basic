@@ -1,9 +1,13 @@
+body {
+  background: #FFF; }
+
 p {
-  color: #FFF; }
+  color: #000;
+  text-align: center; }
 
 a {
-  color: #FFF; }
+  color: #000; }
 
 b {
-  color: #FFF;
-  padding: 5px; }
+  color: #000;
+  padding: 15px; }

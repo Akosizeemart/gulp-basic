@@ -19,7 +19,15 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <?php 
+        $personalInfo = array(
+        	'firstName' => 'zeemart',
+        	'middleName' =>'a',
+        	'lastName' => 'maxino' );
+        print_r($personalInfo);
+        ?>
+        <p>Hi ! wow  awesome</p>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -34,5 +42,9 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
          <script src="js/main.js"></script>
+         <script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:9001/browser-sync/browser-sync-client.2.13.0.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
     </body>
 </html>

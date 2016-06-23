@@ -1,11 +1,16 @@
 $primary-color : #FFF;
+$secondary-color: #000;
+body {
+	background: $primary-color;
+}
 p {
-    color: $primary-color;
+    color: $secondary-color;
+    text-align: center;
 }
 a {
-	color: $primary-color;
+	color: $secondary-color;
 }
 b {
-	color: $primary-color;
-	padding: 5px;
+	color: $secondary-color;
+	padding: 15px;
 }

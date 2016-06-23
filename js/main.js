@@ -1,3 +1,3 @@
 $(function (){
-alert('zee');
+console.log('zee');
 });
